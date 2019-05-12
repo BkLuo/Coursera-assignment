@@ -1,0 +1,64 @@
+body {
+  font-family: "Cosmic Sans MS", cursive, sans-serif;
+  color: #808080;
+}
+
+/*Header*/
+#header-nav {
+	border-radius: 0;
+	background-color:#9ACD32;
+}
+.navbar-brand {
+	padding-top: 15px;
+	padding-bottom: 60px;
+
+}
+.navbar-brand h1{
+	font-weight: bold;
+	font-size:1.8em;
+	margin: 0 auto 0 15px;
+}
+
+#collapsable-nav #nav-list {
+	background-color: white;
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px; 
+}
+
+#collapsable-nav #nav-list li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom:1px solid #808080;
+}
+/*End Header*/
+
+/*Main Content*/
+
+#main-content h2 {
+	margin-top: 10px;
+	margin-bottom: 35px;
+	font-weight: bold;
+}
+#main-content section.row {
+	margin:2%;
+}
+#main-content #tall-section {
+	background-color: #FFFACD;
+	border: 1px solid #808080;
+}
+
+/*End Main Content*/
+
+/*Media*/
+/*mobile(extra small device)*/
+@media(max-width: 767px) {
+	#collapsable-nav {
+		border:1px solid #808080;
+		border-bottom: 0px;
+		padding: 0;
+	}
+	#main-content section.row {
+		margin:30px;
+	}
+}
